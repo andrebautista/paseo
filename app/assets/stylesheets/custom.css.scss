@@ -1,0 +1,24 @@
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+ul {
+    float: left;
+    list-style: none;
+    padding-top: 20px;
+    li {
+      float: left;
+      margin-left: 20px;
+      color: #0094ff;
+    }
+  }
+
+
+.brand{
+	padding-top: 20px;
+}
+
+.navbar-inner{
+	background-color: #F38AAB;
+	background-image: none;
+}
+

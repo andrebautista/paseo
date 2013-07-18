@@ -8,7 +8,7 @@ class StaticPagesController < ApplicationController
   def menu
   end
 
-  def press
+  def news
   end
 
   def contact

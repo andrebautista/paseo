@@ -1,24 +1,125 @@
-@import "bootstrap";
-@import "bootstrap-responsive";
 
+@import "bootstrap";
+
+/* Universal */
+html, body {
+  background-color: #D68CA3;
+  min-height: 100%;
+}
+
+.background-container {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+#backdrop {
+  background: url(image_path('paseo1.jpg')) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
+.text-box{
+  text-align: left;
+  background-color:#ffffff;
+  opacity:0.9; 
+  padding: 10px;
+  margin-top:10px;
+  /*border-style: solid;
+  border-width: 7px;
+  border-color: #0fe9f7;
+  border-radius: 5px;
+  */
+}
+
+.center {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.page-title{
+  width: 16%; 
+  text-align: center;
+  margin: 0px auto 10px auto;
+}
+
+h2{
+  text-align: center;
+  font-size: 2em;
+
+
+}
+
+.footer {
+    height: 100px; 
+    width:100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;    
+    
+}
+
+
+/* Typography */
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  color: $grayLight;
+}
+
+/* Header */
 ul {
     float: left;
     list-style: none;
-    padding-top: 20px;
+    
     li {
       float: left;
       margin-left: 20px;
-      color: #0094ff;
     }
   }
 
+a.menu-link{
+      color: white !important;
+      &:hover {
+         color: #660000 !important;
+       }
+      &:active {
+        
+      } 
+      &:link {
+      color: white;
 
-.brand{
-	padding-top: 20px;
-}
+      }
+     }
+
+/*active states*/
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus
+    { 
+ }
+
+/*hovering states*/
+.nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus { 
+    background-color:white;
+  }     
 
 .navbar-inner{
-	background-color: #F38AAB;
-	background-image: none;
+  background-color: #D68CA3; 
+  background-image: none;
+  font-size: 120%;
 }
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+
+@import "bootstrap-responsive-2.3.2";
+
+
+
+
 

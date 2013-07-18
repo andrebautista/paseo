@@ -1,0 +1,21 @@
+.wrapper{
+  width: 80%;
+}
+
+.connect-bar{
+  float: left;
+  margin-left:3%;
+}
+
+/*rgb(53,208,242)*/
+
+border-style: solid;
+  border-color: #0fe9f7;
+  border-width: 7px;
+  border-radius: 5px;
+
+
+  /* carousel */
+#myCarousel {
+  padding-top: 40px;
+}

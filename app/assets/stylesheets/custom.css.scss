@@ -4,12 +4,14 @@
 /* Universal */
 html, body {
   background-color: #D68CA3;
-  min-height: 100%;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .background-container {
+    margin: 0;
+    position: relative;
+    
 }
 
 #backdrop {
@@ -19,14 +21,19 @@ html, body {
   -o-background-size: cover;
 }
 
+html, body, .main-page, .row-fluid, .background-container {
+  height: 100% !important;
+}
+
 
 
 .text-box{
   text-align: left;
   background-color:#ffffff;
   opacity:0.9; 
-  padding: 10px;
-  margin-top:10px;
+  padding: 30px;
+  margin-top: 10px;
+  
   /*border-style: solid;
   border-width: 7px;
   border-color: #0fe9f7;
@@ -53,7 +60,8 @@ h2{
 }
 
 .footer {
-    height: 100px; 
+    background-color: #D68CA3;
+    height: 35px; 
     width:100%;
     position: fixed;
     left: 0;
@@ -77,7 +85,7 @@ ul {
     
     li {
       float: left;
-      margin-left: 20px;
+      margin-left: 0px;
     }
   }
 

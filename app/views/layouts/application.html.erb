@@ -19,21 +19,18 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
 </head>
-
 <body>
   <%= render 'layouts/header' %>
-  <div class = "background-container" id="backdrop">            
-    <div class="container">
+  <div class = "background-container" id="backdrop">  
+    <div class="container main-page">
       <div class="row-fluid"> 
-        <div class="span4">
-          <div class="text-box" id="connect-bar">
+        <div class="span4 text-box">
             <%= render 'layouts/connect' %>
-          </div>  
         </div>  
-        <div class="span8" id="page-info">           
-          <div class="text-box">
+        <div class="span8 text-box">           
+          
             <%= yield %>
-          </div>  
+          
         </div> <!--end of span8-->
       </div>  
     </div>

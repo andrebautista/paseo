@@ -2,6 +2,7 @@
 
 
 /* Universal */
+
 body {
   background-color: #D68CA3;
   padding-top: 40px;
@@ -21,9 +22,11 @@ body {
   -o-background-size: cover;
 }
 
+/* might not need this
 html, body, .main-page, .row-fluid, .background-container {
   height: 100% !important;
 }
+*/
 
 .text-box{
   text-align: left;
@@ -32,11 +35,16 @@ html, body, .main-page, .row-fluid, .background-container {
   padding: 20px;
   margin-top: 10px;
   border-radius: 5px;  
-  /*border-style: solid;
+  
+  /*
+  border-style: solid;
   border-width: 7px;
   border-color: #0fe9f7;
-  
   */
+}
+
+#content  {
+  margin-bottom: 50px;
 }
 
 .row-fluid [class*="span"] {
@@ -48,16 +56,20 @@ html, body, .main-page, .row-fluid, .background-container {
   float: none !important;
 }
 
-.page-title{
-  width: 16%; 
-  text-align: center;
-  margin: 0px auto 10px auto;
+/*Connect Bar*/
+
+.connect-bar  {
+  margin: 0px auto 0px auto;  
 }
 
-h2{
-  text-align: center;
-  font-size: 2em;
+img.icon{
+  margin:10px; 
+  &:hover {
+    opacity: 1.0 !important;
+  }
 }
+
+/*Footer*/
 
 .footer {
     background-color: #D68CA3;
@@ -72,21 +84,27 @@ footer.footer li{
   margin-left: 10px;
 }
 
-img.icon{
-  margin:10px; 
-  &:hover {
-    opacity: 1.0 !important;
-  }
-}
-
-
-
 /* Typography */
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   color: $grayLight;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.8em;
+}
+
+h3{
+  text-size: 1.5em !important; 
+}
+
+.page-title{
+  width: 16%; 
+  text-align: center;
+  margin: 0px auto 10px auto;
 }
 
 /* Header */
@@ -102,7 +120,7 @@ ul {
 
 .menu-link  {
   text-align: center;
-  line-height: 30px;
+  line-height: 30px;  //size of nav dropdown
   margin-left: 10px
 }
 

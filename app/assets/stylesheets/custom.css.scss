@@ -24,7 +24,7 @@ body {
 }
 
 .main-page  {
-  margin-top: 10px;
+  
 }
 
 .text-box{
@@ -33,7 +33,7 @@ body {
   opacity:0.9; 
   padding: 20px;
   border-radius: 5px;  
-  
+  margin-top:10px;
   /*
   border-style: solid;
   border-width: 7px;
@@ -47,7 +47,7 @@ body {
 }
 
 #content  {
-  margin-bottom: 50px;
+  
 }
 
 .row-fluid [class*="span"] {
@@ -57,7 +57,7 @@ body {
 /*Connect Bar*/
 
 .connect-bar  {
-  margin: 0px auto 0px auto;  
+    margin-bottom:10px;
 }
 
 img.icon{

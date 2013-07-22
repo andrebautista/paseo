@@ -21,3 +21,9 @@ border-style: solid;
 }
 
 <div class="fb-like" data-href="https://www.facebook.com/pages/Paseo-Caribbean-Restaurant/166540673378077?fref=ts" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false" data-font="lucida grande"></div>
+
+/* might not need this
+html, body, .main-page, .row-fluid, .background-container {
+  height: 100% !important;
+}
+*/

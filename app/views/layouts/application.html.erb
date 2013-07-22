@@ -21,17 +21,18 @@
 </head>
 <body>
   <%= render 'layouts/header' %>
-  <div class = "background-container" id="backdrop">  
+  <div class = "container" id="backdrop">  
     <div class="container main-page">
       <div class="row-fluid"> 
-        <div class="span4 text-box">
-            <%= render 'layouts/connect' %>
-        </div>  
-        <div class="span8 text-box" id="content">       <%= yield %>
+        <div class="span9 text-box center" id="content">       
+          <%= yield %>
         </div> <!--end of span8-->
-      </div>  
+        <div class="span3 text-box">
+          <%= render 'layouts/connect' %>
+        </div>  
     </div>
-    <%= render 'layouts/footer' %>
+   </div>
+   <%= render 'layouts/footer' %>
   </div>     
 
 </body>

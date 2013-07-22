@@ -11,7 +11,7 @@ body {
 }
 
 .background-container {
-    margin: 0;
+    margin: 0px;;
     position: relative;
 }
 
@@ -20,20 +20,18 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  width: 100%;
 }
 
-/* might not need this
-html, body, .main-page, .row-fluid, .background-container {
-  height: 100% !important;
+.main-page  {
+  margin-top: 10px;
 }
-*/
 
 .text-box{
   text-align: left;
   background-color:#ffffff;
   opacity:0.9; 
   padding: 20px;
-  margin-top: 10px;
   border-radius: 5px;  
   
   /*
@@ -43,17 +41,17 @@ html, body, .main-page, .row-fluid, .background-container {
   */
 }
 
+.center {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
 #content  {
   margin-bottom: 50px;
 }
 
 .row-fluid [class*="span"] {
     float: left !important; //Allows boxes to stack properly
-}
-
-.center {
-  margin: 0 auto !important;
-  float: none !important;
 }
 
 /*Connect Bar*/
@@ -75,9 +73,7 @@ img.icon{
     background-color: #D68CA3;
     height: 35px; 
     width:100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;    
+    position: relative;    
 }
 
 footer.footer li{

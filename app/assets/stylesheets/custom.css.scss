@@ -30,7 +30,7 @@ body {
 .text-box{
   text-align: left;
   background-color:#ffffff;
-  opacity:0.9; 
+  opacity:0.94; 
   padding: 20px;
   border-radius: 5px;  
   margin-top:10px;
@@ -80,15 +80,42 @@ footer.footer li{
   margin-left: 10px;
 }
 
-/* Menu */
-
+/* Menu Page */
 .list-2s  {
   margin: 5px auto 15px auto !important;
+}
+.menu-category  {
+  margin-left: 0px !important;
+  border-bottom: solid;
+  border-top:solid;
+  border-bottom-width: 2px;
+  border-top-width:2px;
+  border-color: #0fe9f7;
+  padding-bottom:5px;
+  padding-top: 8px;
+
+}
+
+.food-title  {
+  font-size: 1.8em;
+  font-weight:bold;
+  margin-right: 5px;
+}
+
+.description  {
+  font-size: 1.0em;
+  color: #660000;
+}
+
+.block  {
+  padding-right:0px;
+  margin-left: 0px !important;
 }
 
 .menu-row  {
   padding-top: 10px;
 }
+
 
 /* Typography */
 h1 {
@@ -108,30 +135,15 @@ h3{
 }
 
 .page-title{
-  width: 16%; 
+  color: black;
   text-align: center;
   margin: 0px auto 10px auto;
-}
 
-.menu-category  {
-  border-bottom: solid;
-  border-bottom-width: 2px;
+/*border-bottom: solid;
   border-color: #0fe9f7;
-  padding-bottom:5px;
+  border-bottom-width: 2px;
+  */
 }
-
-.food-title  {
-  
-  font-size: 1.8em;
-  font-weight:bold;
-  margin-right: 5px;
-}
-
-.description  {
-  font-size: 1.0em;
-}
-
-
 
 /* Header */
 ul {

@@ -81,11 +81,13 @@ footer.footer li{
 }
 
 /* Menu Page */
+
 .list-2s  {
-  margin: 5px auto 15px auto !important;
+  margin: 0px auto 0px auto !important;
 }
+
 .menu-category  {
-  margin-left: 0px !important;
+  margin: 24px auto 12px auto !important;
   border-bottom: solid;
   border-top:solid;
   border-bottom-width: 2px;
@@ -93,7 +95,6 @@ footer.footer li{
   border-color: #0fe9f7;
   padding-bottom:5px;
   padding-top: 8px;
-
 }
 
 .food-title  {
@@ -113,7 +114,7 @@ footer.footer li{
 }
 
 .menu-row  {
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 ul.list-2s {
@@ -122,16 +123,25 @@ ul.list-2s {
   }
 }
 
+
 .fdname  {
   font-size: 16px;
   margin-left: 5px;
   color: #660000;
   font-weight: bold;
 }
+
 .num  {
   font-size: 16px;
   color: #660000;
   font-weight: bold;
+}
+
+.side  {
+  color: #660000;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 
@@ -155,7 +165,7 @@ h3{
 .page-title{
   color: black;
   text-align: center;
-  margin: 0px auto 10px auto;
+  margin: 0px auto 0px auto;
 
 /*border-bottom: solid;
   border-color: #0fe9f7;

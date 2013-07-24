@@ -109,8 +109,13 @@ footer.footer li{
   margin-left: 0px !important;
 }
 
-.menu-row  {
+.menu-column  {
   padding-top: 12px;
+}
+
+.menu-item  {
+    height: 100px;
+    min-height: 100px;
 }
 
 ul.list-2s {
@@ -159,6 +164,7 @@ ul.list-2s {
   border-color: #0fe9f7;
   border-top-width: 2px;
   border-bottom-width: 2px;
+  margin-left: 0px !important;
 }
 
 /* Typography */

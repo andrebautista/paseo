@@ -5,7 +5,7 @@
 
 body {
   background-color: #D68CA3;
-  padding-top: 40px;
+  /*padding-top: 40px;*/
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
@@ -24,15 +24,23 @@ body {
 }
 
 .text-box{
+  position: static;
   text-align: left;
   background-color:#ffffff;
   opacity:0.94; 
   padding: 20px;
-  border-radius: 5px;  
+  border-top-style: outset;
+  border-bottom-style: outset;
+  border-right-style: outset;
+  border-left-style: outset;
+    /*#FBFBFB #0fe9f7 #00F0FFbet*/
+  border-color:#D68CA3;
+  border-width: 5px;
+  border-radius: 14px;  
   margin-top:10px;
   /*
   border-style: solid;
-  border-width: 7px;
+  border-width: 5px;
   border-color: #0fe9f7;
   */
 }
@@ -46,6 +54,12 @@ body {
     float: left !important; //Allows boxes to stack properly
 }
 
+#content  {
+  margin-top: 0px;
+}
+
+
+
 article{
   margin-top: 25px;
 }
@@ -53,7 +67,7 @@ article{
 /*Connect Bar*/
 
 .connect-bar  {
-    margin-bottom:10px;
+  
 }
 
 img.icon{
@@ -97,6 +111,7 @@ footer.footer li{
   font-size: 2.0em;
   font-weight:bold;
   margin-right: 5px;
+
 }
 
 .description  {
@@ -239,7 +254,7 @@ a.menu-link  {
   margin-bottom: 0px !important;
 }
 
-.navbar-fixed-top  {
+.navbar-static-top  {
   margin-left: 0px !important;  //Ensures navbar fits upon resize
   margin-right: 0px !important;
 }

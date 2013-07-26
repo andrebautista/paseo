@@ -27,3 +27,14 @@ html, body, .main-page, .row-fluid, .background-container {
   height: 100% !important;
 }
 */
+
+<div class="span6 menu-column">
+	<table class="menu-item3">
+   <tr>
+    	<th>1. Grilled Pork - $8.50 </th>
+   </tr>
+   <tr>	
+    <td>Cubed pork loin grilled on a flat top and basted with  until golden brown.</td>
+    </tr>
+	</table>
+</div>

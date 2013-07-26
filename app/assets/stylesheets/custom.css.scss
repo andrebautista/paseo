@@ -42,13 +42,11 @@ body {
   float: none !important;
 }
 
-#content  {
-  
-}
-
 .row-fluid [class*="span"] {
     float: left !important; //Allows boxes to stack properly
 }
+
+
 
 /*Connect Bar*/
 
@@ -93,7 +91,7 @@ footer.footer li{
   padding-top: 8px;
 }
 
-.food-title  {
+.menu-title  {
   font-size: 2.0em;
   font-weight:bold;
   margin-right: 5px;
@@ -114,8 +112,8 @@ footer.footer li{
 }
 
 .menu-item  {
-    height: 100px;
-    min-height: 100px;
+    height: 105px;
+    min-height: 50px;
 }
 
 ul.list-2s {
@@ -205,17 +203,15 @@ ul {
 }
 
 a.menu-link  {
-      color: white !important;
+      color: #ffffff !important;
+      text-shadow: none!important;
+      font-weight: bold;
       &:hover {
          color: #660000 !important;
        }
       &:active {
         
       } 
-      &:link {
-      color: white;
-
-      }
      }
 
 /*active states*/

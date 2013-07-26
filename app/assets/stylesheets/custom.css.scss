@@ -46,7 +46,9 @@ body {
     float: left !important; //Allows boxes to stack properly
 }
 
-
+article{
+  margin-top: 25px;
+}
 
 /*Connect Bar*/
 
@@ -162,7 +164,6 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
-  color: $grayLight;
 }
 
 h2{
@@ -175,7 +176,7 @@ h3{
 }
 
 .page-title{
-  color: black;
+  color: #333333;
   text-align: center;
   margin: 0px auto 0px auto;
 
@@ -184,6 +185,7 @@ h3{
   border-bottom-width: 2px;
   */
 }
+
 
 /* Header */
 ul {
@@ -230,6 +232,7 @@ a.menu-link  {
   font-size: 120%;
   border-color: white;
   border-width: 7px;
+  padding: 0px;
 }
 
 .navbar {

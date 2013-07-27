@@ -86,7 +86,7 @@ footer.footer li{
 }
 
 .menu-category  {
-  margin: 24px auto 12px auto !important;
+  margin: 24px auto 5px auto !important;
   border-bottom: solid;
   border-top:solid;
   border-bottom-width: 2px;
@@ -118,8 +118,9 @@ footer.footer li{
 }
 
 .menu-item  {
-    height: 105px;
-    min-height: 50px;
+    margin-top: 25px;
+    margin-bottom:20px;
+   
 }
 
 ul.list-2s {
@@ -178,9 +179,9 @@ h2{
 h3{
   text-size: 1.5em !important; 
 }
-
+/*#D68CA3*/
 .page-title{
-  color: #333333;
+  color:#333333;
   text-align: center;
   margin: 0px auto 0px auto;
 }

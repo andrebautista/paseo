@@ -29,10 +29,14 @@ body {
   background-color:#ffffff;
   padding: 20px;
   opacity:0.94; 
-  border-left-style: inset;
-  border-bottom-style: outset;
+  
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
   border-color:#D68CA3;
   border-width: 4px;
+ 
+  
 }
 
 #content  {
@@ -86,7 +90,7 @@ footer.footer li{
 }
 
 .menu-category  {
-  margin: 24px auto 5px auto !important;
+  margin: 7px auto 7px auto !important;
   border-bottom: solid;
   border-top:solid;
   border-bottom-width: 2px;
@@ -113,21 +117,22 @@ footer.footer li{
   margin-left: 0px !important;
 }
 
-.menu-column  {
-  padding-top: 12px;
-}
-
 .menu-item  {
     margin-top: 25px;
-    margin-bottom:20px;
-   
+    margin-bottom:25px;
 }
 
-ul.list-2s {
-  li {
-    padding-bottom:0px;
-  }
+.loners-sides{
+  margin-bottom: 17px !important;
 }
+
+.side  {
+  color: #660000;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 15px 0px 15px 0px;
+}
+
 
 .fdname  {
   font-size: 16px;
@@ -146,12 +151,6 @@ ul.list-2s {
   color: #660000;
 }
 
-.side  {
-  color: #660000;
-  font-size: 15px;
-  font-weight: bold;
-  padding-bottom: 5px;
-}
 
 #fix3-4  {
   width: 100%
@@ -183,7 +182,7 @@ h3{
 .page-title{
   color:#333333;
   text-align: center;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 20px auto;
 }
 
 

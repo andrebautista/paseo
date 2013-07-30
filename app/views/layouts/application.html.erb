@@ -13,13 +13,11 @@
   <div class = "container" id="backdrop">  
     <div class="container main-page">
       <div class="row-fluid"> 
-        <div class="span12 text-box" id="content">       
+        <div class="span10 text-box" id="content">       
           <%= yield %>
-        </div>  
-      </div> <!--end of span8-->
-      <div class="row-fluid">    
-        <div class="span12 text-box connect-bar">
-        <%= render 'layouts/connect' %>
+        </div>     
+        <div class="aside span2 connect-bar text-box">
+          <%= render 'layouts/connect' %>
         </div>
       </div> 
     

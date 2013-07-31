@@ -23,9 +23,9 @@ body {
   -o-background-size: cover;
   width: 100%;
 }
-
+/*#00A7D4*/
 .header  {
-  background-color: #00A7D4;
+  background-color: #3E97D1;
 }
 
 .text-box{
@@ -85,8 +85,8 @@ img.icon{
 /*Footer*/
 
 .footer {
-    background-color: #00A7D4;
-    font-size: 120%;
+    background-color: #3E97D1;
+    font-size: 110%;
     height: 100px; 
     position: relative;
     box-shadow: 0px -1px 2px #0fe9f7;
@@ -108,7 +108,7 @@ ul.foot-nav a  {
 }
 
 .copyright  {
-  color: #660000;
+  color: graydark;
   text-align: center;
   margin-left: 10px;
   margin-top: 5px;
@@ -272,12 +272,3 @@ a.menu-link  {
 }
 
 @import "bootstrap-responsive";
-
-
-
-
-
-
-
-
-

@@ -11,23 +11,21 @@
 <body>
   
   <div class = "container" id="backdrop">  
-    <div class="container main-page">
+    
       <%= render 'layouts/header' %>
-      <div class="row-fluid"> 
-        <div class="span12 text-box" id="content">       
+      <div class="row"> 
+        <div class="span11 text-box center" id="content">       
           <%= yield %>
         </div>
       </div>    
-       <div class="row-fluid">    
-        <div class="aside span12 connect-bar text-box">
-          <%= render 'layouts/connect' %>
+       <div class="row">    
+        <div class="span11 center connect-bar text-box">
+          <div class="container">
+            <%= render 'layouts/connect' %>
+          </div>
         </div>
       </div> 
-    
-
-  <%= render 'layouts/footer' %>
-   </div>
-    
+    <%= render 'layouts/footer' %>
 </div>
   
 

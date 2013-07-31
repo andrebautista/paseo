@@ -5,7 +5,7 @@
 body {
   
 /*pinkish #D68CA3*/
-  background-color: #FF7D7D;
+  background-color: #00A7D4;
   /*padding-top: 40px;*/
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -25,7 +25,6 @@ body {
 }
 
 .text-box{
-  position: static;
   text-align: left;
   background-color:#ffffff;
   padding: 20px 20px 10px 20px;
@@ -43,16 +42,12 @@ body {
 }
 
 #content  {
-  margin-top: 0px;
+  margin-top: 0px !important;
 }
 
 .center {
   margin: 0 auto !important;
   float: none !important;
-}
-
-.row-fluid [class*="span"] {
-    float: left !important; //Allows boxes to stack properly
 }
 
 article{
@@ -79,10 +74,15 @@ img.icon{
   }
 }
 
+.connect-bar  {
+ margin-bottom: 10px; 
+}
+
 /*Footer*/
 
 .footer {
-    background-color: #FF7D7D;
+    background-color: #00A7D4;
+    font-size: 120%;
     height: 100px; 
     position: relative;
         
@@ -102,12 +102,11 @@ ul.foot-nav a  {
   padding-top: 10px; 
 }
 
-
 .copyright  {
   color: #660000;
   text-align: center;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 div.copyright a  {
@@ -118,14 +117,7 @@ div.copyright a  {
   margin-left: 0px !important;
   }
 
-.bottom-menu  {
-  float: right;
-}
-
-
 /* Menu Page */
-
-
 .menu-category  {
   margin: 5px auto 5px auto !important;
   border-bottom: solid;
@@ -135,14 +127,12 @@ div.copyright a  {
   border-color: #0fe9f7;
   padding-bottom:8px;
   padding-top: 8px;
-  
 }
 
 .menu-title  {
   font-size: 2.0em;
   font-weight:bold;
   margin-right: 5px;
-
 }
 
 .description  {
@@ -229,6 +219,7 @@ ul {
 .menu-link  {
   text-align: center;
   line-height: 25px;  //size of nav dropdown
+  padding: 10px 20px 10px 20px;
 }
 
 a.menu-link  {
@@ -249,12 +240,12 @@ a.menu-link  {
 /*hovering states*/
 .nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus { 
     background-color:white;
-  }     
+}     
 
 .navbar-inner{
   background-color: #FF7D7D; 
   background-image: none;
-  font-size: 120%;
+  font-size: 130%;
   border-color: white;
   border-width: 7px;
   padding: 10px 0 10px 0;
@@ -267,8 +258,9 @@ a.menu-link  {
 .navbar-static-top  {
   margin-left: 0px !important;  //Ensures navbar fits upon resize
   margin-right: 0px !important;
-  
-
+}
+.navbar .nav {
+  float: right;
 }
 
 @import "bootstrap-responsive";

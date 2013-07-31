@@ -30,10 +30,12 @@ body {
   background-color:#ffffff;
   padding: 20px 20px 10px 20px;
   opacity:0.94; 
+  /*
   border-left-style: solid;
   border-right-style: solid;
   border-color:#FF7D7D;
   border-width: 4px;
+  */
 }
 
 .table  {
@@ -54,7 +56,18 @@ body {
 }
 
 article{
-  margin-top: 25px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: dotted;
+  border-bottom-width: 1px;
+  border-top-width:2px;
+  border-color: #0fe9f7;
+}
+
+.press-top  {
+  border-top: dotted;
+  border-top-width: 1px;
+  border-color: #0fe9f7;
 }
 
 /*Connect Bar*/
@@ -71,11 +84,39 @@ img.icon{
 .footer {
     background-color: #FF7D7D;
     height: 50px; 
-    position: relative;    
+    position: relative;
+        
 }
 
 footer.footer li{
-  margin-left: 15px;
+  margin-left: 20px;
+}
+
+ul.foot-nav a  {
+  color: white !important;
+}
+
+.foot-nav  {
+  float: right;
+  padding-right: 20px;
+}
+
+
+.copyright  {
+  color: #660000;
+  margin-left: 10px;
+}
+
+div.copyright a  {
+  color: white;
+}
+
+.row  {
+  margin-left: 0px !important;
+  }
+
+.bottom-menu  {
+  float: right;
 }
 
 
@@ -213,7 +254,7 @@ a.menu-link  {
   font-size: 120%;
   border-color: white;
   border-width: 7px;
-  padding: 0px;
+  padding: 10px 0 10px 0;
 }
 
 .navbar {
@@ -223,6 +264,8 @@ a.menu-link  {
 .navbar-static-top  {
   margin-left: 0px !important;  //Ensures navbar fits upon resize
   margin-right: 0px !important;
+  margin-top: 20px;
+
 }
 
 @import "bootstrap-responsive";

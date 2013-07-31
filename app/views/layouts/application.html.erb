@@ -11,14 +11,19 @@
 <body>
   
   <div class = "container" id="backdrop"> 
+      <div class="row header">
+        <div class="span12 header-info">
+          <a href= "/" ><%=image_tag("logo22.jpg", alt: "Logo")%></a>
+        </div>
+      </div>
       <%= render 'layouts/header' %>
       <div class="row"> 
-        <div class="span11 text-box center" id="content">       
+        <div class="span12 text-box center" id="content">       
           <%= yield %>
         </div>
       </div>    
        <div class="row">    
-        <div class="span11 center connect-bar text-box">
+        <div class="span12 center connect-bar text-box">
           <div class="container">
             <%= render 'layouts/connect' %>
           </div>

@@ -83,7 +83,7 @@ img.icon{
 
 .footer {
     background-color: #FF7D7D;
-    height: 50px; 
+    height: 100px; 
     position: relative;
         
 }
@@ -99,6 +99,7 @@ ul.foot-nav a  {
 .foot-nav  {
   float: right;
   padding-right: 20px;
+  padding-top: 10px; 
 }
 
 
@@ -106,6 +107,7 @@ ul.foot-nav a  {
   color: #660000;
   text-align: center;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 div.copyright a  {
@@ -125,7 +127,7 @@ div.copyright a  {
 
 
 .menu-category  {
-  margin: 7px auto 7px auto !important;
+  margin: 5px auto 5px auto !important;
   border-bottom: solid;
   border-top:solid;
   border-bottom-width: 2px;

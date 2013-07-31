@@ -85,6 +85,7 @@ img.icon{
     font-size: 120%;
     height: 100px; 
     position: relative;
+    box-shadow: 0px -1px 2px #660000;
         
 }
 
@@ -248,7 +249,10 @@ a.menu-link  {
   font-size: 130%;
   border-color: white;
   border-width: 7px;
-  padding: 10px 0 10px 0;
+  padding: 0 0 0px 0;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #660000;
 }
 
 .navbar {
@@ -261,6 +265,7 @@ a.menu-link  {
 }
 .navbar .nav {
   float: right;
+
 }
 
 @import "bootstrap-responsive";

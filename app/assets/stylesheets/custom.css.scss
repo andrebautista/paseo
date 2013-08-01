@@ -8,6 +8,7 @@ body {
   /*padding-top: 40px;*/
   padding-left: 0px !important;
   padding-right: 0px !important;
+  font-size: 0.97em;
 }
 
 .background-container {
@@ -141,7 +142,7 @@ div.copyright a  {
 }
 
 .menu-title  {
-  font-size: 2.0em;
+  font-size: 2.1em;
   font-weight:bold;
   margin-right: 5px;
 }
@@ -162,25 +163,25 @@ div.copyright a  {
 }
 
 .loners-sides{
-  margin-bottom: 17px !important;
+  margin-bottom: 10px !important;
 }
 
 .side  {
   color: #660000;
-  font-size: 15px;
+  font-size: 1.1em;
   font-weight: bold;
-  margin: 15px 0px 15px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 .fdname  {
-  font-size: 16px;
+  font-size: 1.2em;
   margin-left: 7px;
   color: #660000;
   font-weight: bold;
 }
 
 .num  {
-  font-size: 16px;
+  font-size: 1.2em;
   color: #660000;
   font-weight: bold;
 }
@@ -191,7 +192,11 @@ div.copyright a  {
 
 .alt-id  {
   color: #660000;
-  font-size: 12px;
+  font-size: .9em;
+}
+
+.menu-spacing-fix  {
+  margin-top: 20px;
 }
 
 /* Typography */
@@ -302,7 +307,7 @@ text-align: center;
  }
 
 .twitter{
-  margin-left:20px;  
+  margin-left:18px;  
   margin-top:5px;
 } 
 

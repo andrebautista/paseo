@@ -17,11 +17,11 @@ body {
 
 #backdrop {
   background-color:#007999;
-  /*background: url(image_path('paseo12.jpg')) no-repeat center center fixed;
+  background: url(image_path('paseo12.jpg')) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  */
+  
   width: 100%;
 }
 
@@ -83,6 +83,11 @@ img.icon{
 .connect-bar  {
  margin-bottom: 10px; 
 }
+
+div.connect-bar a  {
+  text-align: center;
+}
+
 
 /*Footer*/
 
@@ -285,6 +290,39 @@ a.menu-link  {
   margin-right: 0px !important;
 }
 */
+
+#connect-bar {
+   float:left;
+   width:100%;
+   overflow:hidden;
+   position:relative;
+}
+#connect-bar ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#connect-bar ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#connect-bar ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   text-decoration:none;
+   line-height:1.3em;
+}
 
 
 

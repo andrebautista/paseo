@@ -297,13 +297,13 @@ display: block;
 text-align: center;
 }
 
-#pager a {
-display:inline-block; 
-width:10px; 
-height:10px; 
-text-indent: -9999px; 
- margin:0 2px;}
+#connect-bar a {
+ margin:0 2px;
+ }
 
-
+.twitter{
+  margin-left:20px;  
+  margin-top:5px;
+} 
 
 @import "bootstrap-responsive";

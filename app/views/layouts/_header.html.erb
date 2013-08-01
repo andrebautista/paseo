@@ -3,25 +3,22 @@
     <a href= "/" ><%=image_tag("logo22.jpg", alt: "Logo")%></a>
   </div>
 </div>
-<div class = "navbar navbar-static-top">
-  <div class = "navbar-inner">
-    <div class="container">
-      <!--btn-navbar used as toggle for collapsed navbar -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
-      <!-- Logo -->  
-      <!-- Everything to be hidden at 940px or less -->
-      <div class="nav-collapse collapse">
-        <ul class = "nav">
+<div class="container navbar-container">
+  <div class="span12 center">
+  <div class = "navbar">
+      <div class = "navbar-inner">
+        <ul class = "nav nav-pills pull-right">
           <li><%= link_to "Home", root_path, class:"menu-link"%></li>
+          
           <li><%= link_to "Menu", menu_path, class:"menu-link" %></li>
+          
           <li><%= link_to "Press", press_path, class:"menu-link" %></li>
+          
           <li><%= link_to "Contact", contact_path, class:"menu-link"%></li>
+          
         </ul> 
       </div>
+     </div> 
     </div> <!-- end of container-->
   </div>    
-</div>     
+    

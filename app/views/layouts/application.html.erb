@@ -13,15 +13,13 @@
   <div class = "container" id="backdrop"> 
       <%= render 'layouts/header' %>
       <div class="row">     
+        <div class="span12 text-box center"> 
           <%= yield %>
-      </div>    
-       <div class="row">    
-        <div class="span12 center connect-bar text-box">
           <div class="container">
-            <%= render 'layouts/connect' %>
+          <%= render 'layouts/connect' %>
           </div>
-        </div>
-      </div> 
+        </div>  
+      </div>    
      </div> 
     <%= render 'layouts/footer' %>
 

@@ -8,7 +8,6 @@ body {
   /*padding-top: 40px;*/
   padding-left: 0px !important;
   padding-right: 0px !important;
-  font-size: 15px;
 }
 
 .background-container {
@@ -164,7 +163,7 @@ div.copyright a  {
 
 
 .description  {
-  font-size: 1.0em;
+  font-size: 1.13em;
   color: #660000;
 }
 
@@ -184,7 +183,7 @@ div.copyright a  {
 
 .side  {
   color: #660000;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
   margin: 20px 0px 20px 5px;
 }
@@ -196,7 +195,7 @@ div.copyright a  {
 
 .fdname  {
   float: left;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin-left: 0px;
   color: #660000;
   font-weight: bold;
@@ -205,14 +204,14 @@ div.copyright a  {
 
 .num  {
   
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #660000;
   font-weight: bold;
 }
 
 .price  {
   float: left;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #660000;
   font-weight: bold;
   margin-left: 15px;
@@ -221,6 +220,7 @@ div.copyright a  {
 .food-description  {
   float: left;
   margin-left: 6px;
+  font-size: 1.13em;
 }
 
 .gf-vg  {
@@ -234,7 +234,8 @@ div.copyright a  {
 
 .alt-id  {
   color: #660000;
-  font-size: .9em;
+  font-size: 1.08em;
+  margin-left: 6px;
 }
 
 .menu-spacing-fix  {

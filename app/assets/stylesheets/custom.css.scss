@@ -220,6 +220,10 @@ tr.side > td {
   margin-left: 15px;
 }
 
+#too-long  {
+  margin-left: 8px;
+}
+
 .food-description  {
   float: left;
   margin-left: 6px;
@@ -241,9 +245,14 @@ tr.side > td {
 }
 
 .alt-id  {
+  float: left;
   color: #660000;
   font-size: 1.08em;
   margin-left: 6px;
+}
+
+.doubled  {
+  margin-left: -10px;
 }
 
 .menu-spacing-fix  {

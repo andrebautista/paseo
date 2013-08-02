@@ -177,15 +177,18 @@ div.copyright a  {
     margin-bottom:25px;
 }
 
-.loners-sides{
-  margin-bottom: 10px !important;
+.loners{
+  margin-bottom: 30px !important;
 }
 
-.side  {
+.sides {
+  margin-bottom: 30px !important;
+  margin-top: 10px !important; 
+}
+
+tr.side > td {
   color: #660000;
-  font-size: 1.3em;
-  font-weight: bold;
-  margin: 20px 0px 20px 5px;
+  padding-bottom: 20px;
 }
 
 /* Makes the price align to the left of the title with superscript*/
@@ -229,6 +232,11 @@ div.copyright a  {
 }
 
 #legend  {
+  margin-top: 10px !important;
+}
+
+#legend-text  {
+  margin: 7px 0px 7px 0px;
   text-align: center;
 }
 

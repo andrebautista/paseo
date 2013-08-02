@@ -3,8 +3,8 @@
 /* Universal */
 
 body {
-/*pinkish #D68CA3*/
-  background-color: #00A7D4;
+/*old #df6051*/
+  background-color: #fd8779;
   /*padding-top: 40px;*/
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -17,7 +17,7 @@ body {
 }
 
 #backdrop {
-  background-color:#007999;
+  background-color:#fd8779;
   background: url(image_path('paseo12.jpg')) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -27,7 +27,7 @@ body {
 
 /*#00A7D4*/
 .header  {
-  background-color: #00A7D4;
+  background-color: #fd8779;
 }
 
 .text-box{
@@ -62,13 +62,14 @@ article{
   border-bottom: dotted;
   border-bottom-width: 1px;
   border-top-width:2px;
-  border-color: #0fe9f7;
+  border-color: #16994b;
 }
 
 .press-top  {
   border-top: dotted;
   border-top-width: 1px;
-  border-color: #0fe9f7;
+  border-color: #16994b;
+  margin-top: 10px;
 }
 
 /*Connect Bar*/
@@ -89,14 +90,14 @@ div.connect-bar a  {
 }
 
 
-/*Footer*/
+/*Footer caribbean blue 00A7D4*/
 
 .footer {
-    background-color: #00A7D4;
+    background-color: #fd8779;
     font-size: 110%;
     height: 100px; 
     position: relative;
-    box-shadow: 0px -1px 2px #0fe9f7;
+    box-shadow: 0px -1px 2px #660000;
         
 }
 
@@ -136,7 +137,7 @@ div.copyright a  {
   border-top:solid;
   border-bottom-width: 2px;
   border-top-width:2px;
-  border-color: #0fe9f7;
+  border-color: #16994b;
   padding-bottom:8px;
   padding-top: 8px;
 }
@@ -199,6 +200,10 @@ div.copyright a  {
   margin-top: 20px;
 }
 
+.top-page  {
+  margin-top: 10px !important;
+}
+
 /* Typography */
 h1 {
   font-size: 3em;
@@ -216,7 +221,7 @@ h3{
 }
 
 .page-title{
-  color:#333333;
+  color:#01b693;
   text-align: center;
   margin: 0px auto 20px auto;
 }
@@ -232,19 +237,19 @@ ul {
     }
   }
 
-.menu-link  {
-  text-align: center;
-  line-height: 25px;  //size of nav dropdown
-  padding: 10px 20px 10px 20px;
-}
-
 a.menu-link  {
       color: #ffffff !important;
       text-shadow: none!important;
-      font-weight: bold;
+      font-weight: none;
       &:hover {
-         color: #660000 !important;
+         background-color: white !important;
+         opacity: .85;
+         color: #cc292c !important;
        }
+      &:active {
+        color: #cc292c !important;
+        background-color: white !important;
+      } 
      }
 
 /*active states*/
@@ -259,14 +264,14 @@ a.menu-link  {
 }     
 
 .navbar-container  {
-  background-color:#FF7D7D; 
+  background-color:#01b693; 
   margin-left: 0px; 
   margin-right: 0px; 
   width: 100% !important; 
 }
 
 .navbar-inner{
-  background-color: #FF7D7D; 
+  background-color: #01b693; 
   background-image: none;
   font-size: 120%;
   margin:0 auto 0px auto;

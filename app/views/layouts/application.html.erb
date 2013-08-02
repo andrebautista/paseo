@@ -12,10 +12,8 @@
 <body>
   <div class = "container" id="backdrop"> 
       <%= render 'layouts/header' %>
-      <div class="row"> 
-        <div class="span12 text-box center" id="content">       
+      <div class="row">     
           <%= yield %>
-        </div>
       </div>    
        <div class="row">    
         <div class="span12 center connect-bar text-box">
@@ -24,8 +22,9 @@
           </div>
         </div>
       </div> 
+     </div> 
     <%= render 'layouts/footer' %>
-</div>
+
   
 
 </body>

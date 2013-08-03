@@ -82,13 +82,6 @@ article{
 
 /*Connect Bar*/
 
-img.icon{
-  margin:10px; 
-  &:hover {
-    opacity: 1.0 !important;
-  }
-}
-
 #connect-page  {
 padding-bottom: 0px;  
 padding-top: 0px;
@@ -297,15 +290,19 @@ a.menu-link  {
       text-shadow: none!important;
       font-weight: none;
       &:hover {
-         background-color: #019d7f !important;
          opacity: .9;
-         color: #cc292c !important;
+         background-color: #019d7f !important;
        }
       &:active {
         color: #cc292c !important;
         background-color: #019d7f !important;
       } 
      }
+
+.navbar .nav > .active > a {
+  color: #cc292c !important;
+  background-color: #019d7f !important;
+}
 
 /*active states*/
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus

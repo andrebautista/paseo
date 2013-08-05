@@ -56,7 +56,8 @@ background-image: -webkit-gradient(
   background-color:#ffffff;
   padding: 30px 13px 10px 13px;
   opacity:0.94;
-  box-shadow: 3px 0px 2px 0px #ffffff, -3px 0px 2px 0px #ffffff; 
+  box-shadow: 3px 0px 2px 0px #ffffff, -3px 0px 2px 0px #ffffff;
+  margin: 0px auto 0px auto !important;
   /*
   border-left-style: solid;
   border-right-style: solid;
@@ -397,7 +398,7 @@ a.nav-link  {
 
 @media (min-width: 768px) and (max-width: 979px) {
   .span12 {
-    width: 850px !important;
+    width: 97% !important;
   }
 }
 

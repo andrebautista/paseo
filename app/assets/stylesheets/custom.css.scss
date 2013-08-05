@@ -52,7 +52,7 @@ background-image: -webkit-gradient(
 .text-box{
   text-align: left;
   background-color:#ffffff;
-  padding: 30px 13px 20px 13px;
+  padding: 30px 13px 10px 13px;
   opacity:0.94;
   box-shadow: 3px 0px 2px 0px #ffffff, -3px 0px 2px 0px #ffffff; 
   /*
@@ -61,10 +61,6 @@ background-image: -webkit-gradient(
   border-color:#FF7D7D;
   border-width: 4px;
   */
-}
-
-.connect-section  {
-  margin-top: 10px;
 }
 
 .table  {
@@ -98,32 +94,44 @@ article{
 
 /*Connect Bar*/
 
-#connect-page  {
+#connect-center  {
 padding-bottom: 0px;  
 padding-top: 0px;
 }
 
-#connect-bar  {
- margin-bottom: 0px; 
+.connect-section  {
+  margin-top: 20px;
 }
 
-div.connect-bar a  {
+div.connect-center a  {
   text-align: center;
 }
 
+#connect-center {
+float:left; 
+width:100%; 
+display: block; 
+text-align: center;
+margin-bottom: 0px;
+}
 
-/*Footer caribbean blue 00A7D4*/
+#connect-center a {
+ margin:0 2px;
+ }
+
+.twitter-hashtag-button  {
+  margin-top: 8px;
+}
+
+
+/*Footer*/
 
 .footer {
-    
-
-
     background-color: #fd8779;
     font-size: 110%;
     height: 100px; 
     position: relative;
-    box-shadow: 0px -1px 2px #fd9e92;
-        
+    box-shadow: 0px -1px 2px #fd9e92;      
 }
 
 footer.footer li{
@@ -156,6 +164,12 @@ div.copyright a  {
   }
 
 /* Menu Page */
+#cash-only  {
+    color:#660000;
+    font-size:1.3em;
+    text-align: center;  
+}
+
 .menu-category  {
   margin: 5px auto 5px auto !important;
   border-bottom: solid;
@@ -304,7 +318,7 @@ ul {
     }
   }
 
-a.menu-link  {
+a.nav-link  {
       color: #ffffff !important;
       text-shadow: none!important;
       font-weight: none;
@@ -371,21 +385,5 @@ a.menu-link  {
   margin-right: 0px !important;
 }
 */
-
-#connect-bar {
-float:left; 
-width:100%; 
-display: block; 
-text-align: center;
-}
-
-#connect-bar a {
- margin:0 2px;
- }
-
-.twitter{
-  margin-left:0px;  
-  margin-top:5px;
-} 
 
 @import "bootstrap-responsive";

@@ -44,7 +44,7 @@ body {
   overflow: hidden;
   text-align: left;
   background-color:#ffffff;
-  padding: 30px 13px 10px 13px;
+  padding: 10px 13px 10px 13px;
   opacity:0.94;
   box-shadow: 0px 4px 2px 5px #ffffff;
  
@@ -226,38 +226,44 @@ margin: 0px 0px 0px 0px;
 
 #fremont  {
   text-align: center;
-  margin-top: 10px;
+  line-height: 105%;
+  margin-bottom:10px;
+  margin-top: 5px;
 }
 
 #ballard  {
   text-align: center;
-  margin-top: 10px;
+  margin-left: 0px;
+  line-height: 105%;
+  margin-top: 5px;
 }
 
 #location-cap  {
   margin-right: 40px;
-  font-size: 1.2em;
+  font-size: .8em;
   margin-left: 0px;
   font-weight: bold;
   text-align: center;
 }
 
 #location-name  {
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-align: left;
   font-weight: bold;
 }
 
 #address  {
   color: #660000;
+  font-size: .8em;
+  line-height: .1em;
 }
 
 #phone  {
-  
+  font-size: .8em;
 }
 
 #hours  {
-  
+  font-size: .8em;
 }
 
 
@@ -267,7 +273,7 @@ margin: 0px 0px 0px 0px;
 #cash-only  {
     color:#cc292c;
     font-size:1.3em;
-    text-align: center;  
+    text-align: left;  
 }
 
 .table  {

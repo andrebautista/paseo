@@ -1,11 +1,9 @@
 @import "bootstrap";
 
-/* Universal */
+/* UNIVERSAL */
 
 body {
-/*old #df6051*/
   background-color: #fd8779;
-  /*padding-top: 40px;*/
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
@@ -13,6 +11,10 @@ body {
 .background-container {
     margin: 0px;;
     position: relative;
+}
+
+.span12  {
+  margin-left: 0px !important;
 }
 
 #backdrop {
@@ -24,12 +26,45 @@ body {
   width: 100%;
 }
 
-/*#00A7D4 background-color: #fd8779;
+@media (min-width: 768px) and (max-width: 979px) {
+  #main-text {
+    width: 97% !important;
+  }
+}
 
-*/
+#main-text  {
+   margin-top: 2px !important;
+}
+
+.row  {
+  margin-left: 0px !important;
+}
+
+.text-box{
+  overflow: hidden;
+  text-align: left;
+  background-color:#ffffff;
+  padding: 30px 13px 10px 13px;
+  opacity:0.94;
+  box-shadow: 0px 4px 2px 5px #ffffff;
+ 
+  /*
+  box-shadow: 10px 0px 2px 0px #ffffff, -10px 0px 2px 0px #ffffff, 0px -0px 8px 4px #ffffff;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color:#FF7D7D;
+  border-width: 4px;
+  */
+}
+
+.center {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+/* HEADER */
+
 .header  {
-  
-
 background-image: linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
 background-image: -o-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
 background-image: -moz-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
@@ -43,285 +78,12 @@ background-image: -webkit-gradient(
   color-stop(0.61, rgb(253,134,121)),
   color-stop(0.87, rgb(253,158,146))
 );
-
-
 }
 
 .header-info  {
   margin-bottom: 0px;
 }
 
-.text-box{
-
-  overflow: hidden;
-  text-align: left;
-  background-color:#ffffff;
-  padding: 30px 5px 10px 13px;
-  opacity:0.94;
-  box-shadow: 0px 4px 2px 5px #ffffff;
- 
-  /*
-   box-shadow: 10px 0px 2px 0px #ffffff, -10px 0px 2px 0px #ffffff, 0px -0px 8px 4px #ffffff;
- 
-  border-left-style: solid;
-  border-right-style: solid;
-  border-color:#FF7D7D;
-  border-width: 4px;
-  */
-}
-
-.table  {
-  margin-bottom: 20px !important;
-}
-
-#menu  {
-  margin-top: 0px !important;
-}
-
-.center {
-  margin: 0 auto !important;
-  float: none !important;
-}
-
-article{
-  padding-bottom: 10px;
-  margin-top: 20px;
-  border-bottom: dotted;
-  border-bottom-width: 1px;
-  border-top-width:2px;
-  border-color: #16994b;
-}
-
-#article-bottom  {
-  margin-bottom: 5px;
-}
-
-.press-top  {
-  border-top: dotted;
-  border-top-width: 1px;
-  border-color: #16994b;
-  margin-top: 5px;
-}
-
-/*Connect Bar*/
-
-#connect-center  {
-padding-bottom: 0px;  
-padding-top: 0px;
-}
-
-.connect-section  {
-  margin-top: 20px;
-}
-
-div.connect-center a  {
-  text-align: center;
-}
-
-#connect-center {
-float:left; 
-width:100%; 
-display: block; 
-text-align: center;
-margin-bottom: 0px;
-}
-
-#connect-center a {
- margin:0 3px;
- }
-
-.twitter-hashtag-button  {
-  margin: 8px 0px 0px 29px;
-}
-.xl, .count-o {
-margin: 0px 0px 0px 0px;
-}
-
-
-/*Footer*/
-
-.footer {
-    background-color: #fd8779;
-    font-size: 110%;
-    height: 100px; 
-    position: relative;
-    box-shadow: 0px -1px 2px #fd9e92;      
-}
-
-footer.footer li{
-  margin-left: 20px;
-}
-
-ul.foot-nav a  {
-  color: white !important;
-}
-
-.foot-nav  {
-  float: right;
-  padding-right: 20px;
-  padding-top: 10px; 
-}
-
-.copyright  {
-  color: graydark;
-  text-align: center;
-  margin-left: 10px;
-  margin-top: 5px;
-}
-
-div.copyright a  {
-  color: white;
-}
-
-.row  {
-  margin-left: 0px !important;
-  }
-
-/* Menu Page */
-#cash-only  {
-    color:#cc292c;
-    font-size:1.3em;
-    text-align: center;  
-}
-
-.menu-category  {
-  margin: 5px auto 5px auto !important;
-  border-bottom: solid;
-  border-top:solid;
-  border-bottom-width: 2px;
-  border-top-width:2px;
-  border-color: #16994b;
-  padding-bottom:8px;
-  padding-top: 8px;
-}
-
-.menu-title  {
-  font-size: 2.1em;
-  font-weight:bold;
-  margin-right: 5px;
-}
-
-
-.description  {
-  font-size: 1.1em;
-  color: #660000;
-}
-
-.block  {
-  padding-right:0px;
-  margin-left: 0px !important;
-}
-
-.menu-item  {
-    margin-top: 25px;
-    margin-bottom:25px;
-}
-
-.loners{
-  margin-bottom: 30px !important;
-}
-
-.sides {
-  margin-bottom: 30px !important;
-  margin-top: 10px !important; 
-}
-
-tr.side > td {
-  color: #660000;
-  padding-bottom: 20px;
-}
-
-/* Makes the price align to the left of the title with superscript*/
-.menu-fix  {
-  float:left;  
-}
-
-.fdname  {
-  float: left;
-  font-size: 1.3em;
-  margin-left: 0px;
-  color: #660000;
-  font-weight: bold;
-  margin-left: 5px;
-}
-
-.num  {
-  
-  font-size: 1.3em;
-  color: #660000;
-  font-weight: bold;
-}
-
-.price  {
-  float: left;
-  font-size: 1.3em;
-  color: #660000;
-  font-weight: bold;
-  margin-left: 15px;
-}
-
-#too-long  {
-  margin-left: 8px;
-}
-
-.food-description  {
-  float: left;
-  margin-left: 6px;
-  font-size: 1.1em;
-}
-
-.gf-vg  {
-  color: #660000;
-  margin-left: 2px;
-}
-
-#legend  {
-  margin-top: 10px !important;
-}
-
-#legend-text  {
-  margin: 7px 0px 7px 0px;
-  text-align: center;
-}
-
-.alt-id  {
-  float: left;
-  color: #660000;
-  font-size: 1.08em;
-  margin-left: 6px;
-}
-
-.doubled  {
-  margin-left: -10px;
-}
-
-.menu-spacing-fix  {
-  margin-top: 20px;
-}
-
-/* Typography */
-h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
-}
-
-h2{
-  text-align: center;
-  font-size: 1.8em;
-}
-
-h3{
-  text-size: 1.5em !important; 
-}
-
-.page-title{
-  color:#01b693;
-  text-align: center;
-  margin: 0px auto 20px auto;
-}
-
-/* Header */
 ul {
     float: left;
     list-style: none;
@@ -389,14 +151,286 @@ a.nav-link  {
 }
 */
 
-@media (min-width: 768px) and (max-width: 979px) {
-  #main-text {
-    width: 97% !important;
-  }
+/*FOOTER*/
+
+.footer {
+  background-color: #fd8779;
+  font-size: 110%;
+  height: 100px; 
+  position: relative;
+  box-shadow: 0px -1px 2px #fd9e92;      
 }
 
-#main-text  {
-   margin-top: 2px !important;
+footer.footer li{
+  margin-left: 20px;
+}
+
+ul.foot-nav a  {
+  color: white !important;
+}
+
+.foot-nav  {
+  float: right;
+  padding-right: 20px;
+  padding-top: 10px; 
+}
+
+.copyright  {
+  color: graydark;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+div.copyright a  {
+  color: white;
+}
+
+/*CONNECT BAR*/
+
+#connect-center  {
+padding-bottom: 0px;  
+padding-top: 0px;
+}
+
+.connect-section  {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+div.connect-center a  {
+  text-align: center;
+}
+
+#connect-center {
+float:left; 
+width:100%; 
+display: block; 
+text-align: center;
+margin-bottom: 0px;
+}
+
+#connect-center a {
+ margin:0 3px;
+ }
+
+
+.twitter-hashtag-button  {
+  margin: 8px 0px 0px 29px;
+}
+.xl, .count-o {
+margin: 0px 0px 0px 0px;
+}
+
+/* HOME PAGE */
+
+#fremont  {
+  text-align: center;
+}
+
+#ballard  {
+  text-align: center;
+}
+
+#location-cap  {
+  margin-right: 40px;
+  font-size: 1.2em;
+  margin-left: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#location-name  {
+  font-size: 1.3em;
+  text-align: left;
+  font-weight: bold;
+}
+
+#address  {
+  color: #660000;
+}
+
+#phone  {
+  
+}
+
+#hours  {
+  
+}
+
+
+
+/* MENU PAGE */
+
+#cash-only  {
+    color:#cc292c;
+    font-size:1.3em;
+    text-align: center;  
+}
+
+.table  {
+  margin-bottom: 20px !important;
+}
+
+.menu-category  {
+  margin: 5px auto 5px auto !important;
+  border-bottom: solid;
+  border-top:solid;
+  border-bottom-width: 2px;
+  border-top-width:2px;
+  border-color: #16994b;
+  padding-bottom:8px;
+  padding-top: 8px;
+}
+
+.menu-title  {
+  font-size: 2.1em;
+  font-weight:bold;
+  margin-right: 5px;
+}
+
+
+.description  {
+  font-size: 1.1em;
+  color: #660000;
+}
+
+.block  {
+  padding-right:0px;
+  margin-left: 0px !important;
+}
+
+.menu-item  {
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
+.loners{
+  margin-bottom: 30px !important;
+}
+
+.sides {
+  margin-bottom: 30px !important;
+  margin-top: 10px !important; 
+}
+
+tr.side > td {
+  color: #660000;
+  padding-bottom: 20px;
+}
+
+  /* Makes the price align to the left of the title with superscript*/
+.menu-fix  {
+  float:left;  
+}
+
+.fdname  {
+  float: left;
+  font-size: 1.3em;
+  margin-left: 0px;
+  color: #660000;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.num  {
+  
+  font-size: 1.3em;
+  color: #660000;
+  font-weight: bold;
+}
+
+.price  {
+  float: left;
+  font-size: 1.3em;
+  color: #660000;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+#too-long  {
+  margin-left: 8px;
+}
+
+.food-description  {
+  float: left;
+  margin-left: 6px;
+  font-size: 1.1em;
+}
+
+.gf-vg  {
+  color: #660000;
+  margin-left: 2px;
+}
+
+#legend  {
+  margin-top: 10px !important;
+}
+
+#legend-text  {
+  margin: 7px 0px 7px 0px;
+  text-align: center;
+}
+
+.alt-id  {
+  float: left;
+  color: #660000;
+  font-size: 1.08em;
+  margin-left: 6px;
+}
+
+/* double digit menu items; align them with singles */
+.doubled  {  
+  margin-left: -10px;
+}
+
+.menu-spacing-fix  {
+  margin-top: 20px;
+}
+
+/* PRESS */
+
+article{
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: dotted;
+  border-bottom-width: 1px;
+  border-top-width:2px;
+  border-color: #16994b;
+}
+
+#article-bottom  {
+  margin-bottom: 5px;
+}
+
+.press-top  {
+  border-top: dotted;
+  border-top-width: 1px;
+  border-color: #16994b;
+  margin-top: 5px;
+}
+
+
+/* Typography */
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.8em;
+}
+
+h3{
+  text-size: 1.5em !important; 
+}
+
+.page-title{
+  color:#01b693;
+  text-align: center;
+  margin: 0px auto 20px auto;
 }
 
 @import "bootstrap-responsive";

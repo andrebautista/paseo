@@ -2,22 +2,25 @@
 /* UNIVERSAL */
 
 body {
-  background-color: #fd8779 !important;
+  background-color: #f2accc !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 
+/*#fd8779*/
 #backdrop {
-  background-color:#fd8779;
+  background-color: #f2accc;
+  /*
   background: url(image_path('paseo12.jpg')) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   width: 100%;
+  */
 }
 
 #main-text  {
-   margin-top: 2px !important;
+   margin-top: 6px !important;
 }
 
 .row  {
@@ -29,7 +32,7 @@ body {
   text-align: left;
   background-color:#ffffff;
   padding: 10px 13px 10px 13px;
-  opacity:0.94;
+  opacity:0.92;
   box-shadow: 0px 4px 2px 5px #ffffff;
  
   /*
@@ -49,7 +52,9 @@ body {
 /* HEADER */
 
 .header  {
-background-image: linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
+
+background-color: white;
+/*background-image: linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
 background-image: -o-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
 background-image: -moz-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
 background-image: -webkit-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
@@ -62,7 +67,7 @@ background-image: -webkit-gradient(
   color-stop(0.61, rgb(253,134,121)),
   color-stop(0.87, rgb(253,158,146))
 );
-
+*/
 }
 
 .header-info  {
@@ -88,18 +93,18 @@ a.nav-link  {
       text-shadow: none!important;
       font-weight: none;
       &:hover {
-         opacity: .9;
-         background-color: #019d7f !important;
+         opacity: .8;
+         background-color:#ee7fb2  !important;
        }
       &:active {
-        color: #cc292c !important;
-        background-color: #019d7f !important;
+        color: #16994b !important;
+        background-color: #f2accc !important;
       } 
      }
 
 .navbar .nav > .active > a {
-  color: #cc292c !important;
-  background-color: #019d7f !important;
+  color: #16994b !important;
+  background-color: #f2accc !important;
 }
 
 #nav-cont  {
@@ -107,16 +112,16 @@ a.nav-link  {
   padding-right: 0px !important;
 }
 .navbar-container  {
-  background-color:#01b693; 
+  background-color:#5e717a; 
   margin-left: 0px !important; 
   margin-right: 0px !important; 
   width: 100% !important;
-  box-shadow: 0px -1px 2px #01cfa7, 0px 2px 2px #01cfa7; 
+  box-shadow: 0px -1px 2px #7e8d94, 0px 2px 2px #7e8d94; 
 }
 
 .navbar{
   min-height: 0px !important;
-  background-color: #01b693 !important; 
+  background-color: #5e717a !important; 
   background-image: none;
   margin:0 auto 0px auto;
   border-bottom: none;
@@ -127,7 +132,7 @@ a.nav-link  {
   border-bottom-color: #0fe9f7;
   border-color: #fd8779;
   box-shadow: 0px 0px 0px !important;
-  border-radius: 0px;
+  border-radius: 0px !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
  
@@ -144,14 +149,14 @@ a.nav-link  {
 }
 */
 
-/*FOOTER*/
+/*FOOTER#fd8779*/
 
 .footer {
-  background-color: #fd8779;
+  background-color:#138340;
   font-size: 110%;
   height: 100px; 
   position: relative;
-  box-shadow: 0px -1px 2px #fd9e92;      
+  box-shadow: 0px -1px 2px #01cfa7;      
 }
 
 footer.footer li{
@@ -271,7 +276,7 @@ margin: 0px 0px 0px 0px;
 #cash-only  {
     color:#cc292c;
     font-size:1.3em;
-    text-align: left;  
+    text-align: center;  
 }
 
 .table  {

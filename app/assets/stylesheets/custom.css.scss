@@ -62,10 +62,13 @@ background-image: -webkit-gradient(
   color-stop(0.61, rgb(253,134,121)),
   color-stop(0.87, rgb(253,158,146))
 );
+
 }
 
 .header-info  {
   margin-bottom: 0px;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
 }
 
 ul {
@@ -216,14 +219,14 @@ margin: 0px 0px 0px 0px;
   text-align: center;
   line-height: 105%;
   margin-bottom:10px;
-  margin-top: 5px;
+  margin-top: 16.5px;
 }
 
 #ballard  {
   text-align: center;
   margin-left: 0px;
   line-height: 105%;
-  margin-top: 5px;
+  margin-top: 16.5px;
   margin-bottom: 10px;
 }
 

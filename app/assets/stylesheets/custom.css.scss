@@ -66,9 +66,11 @@ background-image: -webkit-gradient(
 }
 
 .header-info  {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   margin-left: 0px !important;
   padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-top:5px;
 }
 
 ul {
@@ -220,6 +222,8 @@ margin: 0px 0px 0px 0px;
   line-height: 105%;
   margin-bottom:10px;
   margin-top: 16.5px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 #ballard  {
@@ -228,6 +232,8 @@ margin: 0px 0px 0px 0px;
   line-height: 105%;
   margin-top: 16.5px;
   margin-bottom: 10px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 #location-cap  {
@@ -432,7 +438,6 @@ h3{
   text-align: center;
   margin: 0px auto 20px auto;
 }
-
 
 @media (min-width: 768px) and (max-width: 991px){
   .container {

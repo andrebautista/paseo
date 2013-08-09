@@ -31,7 +31,7 @@ body {
   overflow: hidden;
   text-align: left;
   background-color:#ffffff;
-  padding: 10px 13px 10px 13px;
+  padding: 5px 13px 10px 13px;
   opacity:0.92;
   box-shadow: 0px 4px 2px 5px #ffffff;
  
@@ -184,6 +184,10 @@ ul.foot-nav a  {
   margin-top: 5px;
 }
 
+#personal-logo  {
+  color: white !important;
+}
+
 div.copyright a  {
   color: white;
 }
@@ -218,7 +222,7 @@ margin-bottom: 0px;
 
 
 .twitter-hashtag-button  {
-  margin: 8px 0px 0px 29px;
+  margin: 8px 0px 0px 0px;
 }
 .xl, .count-o {
 margin: 0px 0px 0px 0px;
@@ -228,7 +232,7 @@ margin: 0px 0px 0px 0px;
 
 #fremont  {
   text-align: center;
-  line-height: 105%;
+  line-height: 110%;
   margin-bottom:10px;
   margin-top: 16.5px;
   padding-right: 0px !important;
@@ -237,7 +241,7 @@ margin: 0px 0px 0px 0px;
 
 #ballard  {
   text-align: center;
-  line-height: 105%;
+  line-height: 110%;
   margin-top: 16.5px;
   margin-bottom: 10px;
   padding-left: 0px !important;
@@ -277,7 +281,7 @@ margin: 0px 0px 0px 0px;
 /* MENU PAGE */
 
 #cash-only  {
-    color:#cc292c;
+    color:#768b95;
     font-size:1.3em;
     text-align: center;  
 }
@@ -301,7 +305,7 @@ margin: 0px 0px 0px 0px;
   font-size: 2.1em;
   font-weight:bold;
   margin-right: 5px;
-  color: #5e717a;
+  color: #48565d;
 }
 
 
@@ -427,19 +431,13 @@ article{
 
 
 /* Typography */
-h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
-}
 
-h2{
-  text-align: center;
-  font-size: 1.8em;
-}
 
-h3{
-  text-size: 1.5em !important; 
+
+
+
+h4{
+  color: #2c3539 !important;
 }
 
 .page-title{

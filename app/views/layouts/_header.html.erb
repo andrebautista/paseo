@@ -1,15 +1,26 @@
 <div class="row header">
   <div class="container">
-    <div class="span4 header-info">
+    <div class="col-4 col-lg-4 header-info">
       <a href= "/" ><%=image_tag("logo22.jpg", alt: "Logo")%></a>
-    </div>  
-    
-  </div>    
-</div>
-<div class="container navbar-container">
-  <div class="span12 center">
+    </div> 
+    <div class ="col-4 col-sm-2 col-sm-offset-4 col-lg-2 col-lg-offset-4" id="fremont">
+      <span id="location-name">Fremont</span><br>
+      <span id="address">4225 Fremont Ave N<br>
+      Seattle, WA 98103</span><br>
+      <span id="phone">(206) 545-7440</span><br><span id="hours">Tu-Fri: 11-9 &amp; Sat: 11-8</span> 
+    </div>
+    <div class ="col-4 col-sm-2 col-lg-2" id="ballard">
+      <span id="location-name">Ballard</span><br>
+      <span id="address">6226 Seaview Ave NW<br>
+      Seattle, WA 98107</span><br>
+      <span id="phone">(206) 545-7440</span><br>
+      <span id="hours">Tu-Sat: 11-9</span> 
+      </div> 
+  </div>  
+ <div class="col-12 col-lg-12 navbar-container" id="nav-cont">    
+
+  <div class="container">
   <div class = "navbar">
-      <div class = "navbar-inner">
         <ul class = "nav pull-right">
           <li class="<%= 'active' if current_page?(root_path)%>"><%= link_to "Home", root_path, class:"nav-link"%></li>
           
@@ -19,8 +30,8 @@
           
           <li class="<%= 'active' if current_page?(contact_path) %>"><%= link_to "Contact", contact_path, class:"nav-link"%></li>
         </ul> 
-      </div>
      </div> 
-    </div> <!-- end of container-->
+ <!-- end of container-->
+  </div>  
   </div>    
-    
+</div>   

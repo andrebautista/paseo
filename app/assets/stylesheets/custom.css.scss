@@ -1,20 +1,10 @@
-@import "bootstrap";
-
+@import "twitter/bootstrap";
 /* UNIVERSAL */
 
 body {
-  background-color: #fd8779;
+  background-color: #fd8779 !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
-}
-
-.background-container {
-    margin: 0px;;
-    position: relative;
-}
-
-.span12  {
-  margin-left: 0px !important;
 }
 
 #backdrop {
@@ -24,12 +14,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   width: 100%;
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  #main-text {
-    width: 97% !important;
-  }
 }
 
 #main-text  {
@@ -113,18 +97,22 @@ a.nav-link  {
   background-color: #019d7f !important;
 }
 
+#nav-cont  {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 .navbar-container  {
   background-color:#01b693; 
-  margin-left: 0px; 
-  margin-right: 0px; 
+  margin-left: 0px !important; 
+  margin-right: 0px !important; 
   width: 100% !important;
   box-shadow: 0px -1px 2px #01cfa7, 0px 2px 2px #01cfa7; 
 }
 
-.navbar-inner{
-  background-color: #01b693; 
+.navbar{
+  min-height: 0px !important;
+  background-color: #01b693 !important; 
   background-image: none;
-  font-size: 120%;
   margin:0 auto 0px auto;
   border-bottom: none;
   border-left-style: none;
@@ -236,6 +224,7 @@ margin: 0px 0px 0px 0px;
   margin-left: 0px;
   line-height: 105%;
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 #location-cap  {
@@ -441,4 +430,9 @@ h3{
   margin: 0px auto 20px auto;
 }
 
-@import "bootstrap-responsive";
+
+@media (min-width: 768px) and (max-width: 991px){
+  .container {
+    max-width: 940px !important; 
+  }
+ } 

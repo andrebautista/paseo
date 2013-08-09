@@ -19,34 +19,16 @@
   </script>
 </head>
 <body>
-  <div class = "container" id="backdrop"> 
       <%= render 'layouts/header' %>
-      <div class="row">     
-        <div class="span12 text-box center" id="main-text"> 
-                
-  <div class="row-fluid">  
-    <div class ="span2 offset4" id="fremont">
-      <span id="location-name">Fremont</span><br>
-      <span id="address">4225 Fremont Ave N<br>
-      Seattle, WA 98103</span><br>
-      <span id="phone">(206) 545-7440</span><br><span id="hours">Tu-Fri: 11-9 &amp; Sat: 11-8</span> 
-    </div>
-    <div class ="span2" id="ballard">
-      <span id="location-name">Ballard</span><br>
-      <span id="address">6226 Seaview Ave NW<br>
-      Seattle, WA 98107</span><br>
-      <span id="phone">(206) 545-7440</span><br>
-      <span id="hours">Tu-Sat: 11-9</span> 
-      </div>
-      
-  </div>
+      <div class="row" id="backdrop">     
+        <div class="col-12 col-lg-8 text-box center" id="main-text"> 
           <%= yield %>
           <div class="container">
           <%= render 'layouts/connect' %>
           </div>
         </div>  
       </div>    
-     </div> 
+  
     <%= render 'layouts/footer' %>
 </body>
 </html>

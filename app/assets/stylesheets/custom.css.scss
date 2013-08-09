@@ -2,7 +2,7 @@
 /* UNIVERSAL */
 
 body {
-  background-color: #f2accc !important;
+  background-color: #7dae41 !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
@@ -47,6 +47,10 @@ body {
 .center {
   margin: 0 auto !important;
   float: none !important;
+}
+
+a  {
+  color: #16994b !important;
 }
 
 /* HEADER */
@@ -152,7 +156,7 @@ a.nav-link  {
 /*FOOTER#fd8779*/
 
 .footer {
-  background-color:#138340;
+  background-color:#7dae41;
   font-size: 110%;
   height: 100px; 
   position: relative;
@@ -360,7 +364,7 @@ tr.side > td {
 }
 
 #too-long  {
-  margin-left: 8px;
+  margin-left: 5px;
 }
 
 .food-description  {

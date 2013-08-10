@@ -2,14 +2,14 @@
 /* UNIVERSAL */
 
 body {
-  background-color: #7a5e71 !important;
+  background-color: #5e717a !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 
 /*#fd8779*/
 #backdrop {
-  background-color: #f2accc;
+  background-color: #5e717a;
   /*
   background: url(image_path('paseo12.jpg')) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -25,6 +25,10 @@ body {
 
 .row  {
   margin-left: 0px !important;
+}
+
+.img-responsive  {
+  max-width: 75% !important;
 }
 
 .text-box{
@@ -97,35 +101,33 @@ a.nav-link  {
       text-shadow: none!important;
       font-weight: none;
       &:hover {
-         opacity: .8;
-         background-color:#ee7fb2  !important;
+         
+         background-color:#5e717a  !important;
        }
       &:active {
         color: #16994b !important;
-        background-color: #f2accc !important;
+        background-color: #5e717a !important;
       } 
      }
 
 .navbar .nav > .active > a {
   color: #16994b !important;
-  background-color: #f2accc !important;
+  background-color: #5e717a !important;
 }
 
-#nav-cont  {
+.navbar-container  {
   padding-left: 0px !important;
   padding-right: 0px !important;
-}
-.navbar-container  {
-  background-color:#5e717a; 
+  background-color:#f2accc; 
   margin-left: 0px !important; 
   margin-right: 0px !important; 
   width: 100% !important;
-  box-shadow: 0px -1px 2px #7e8d94, 0px 2px 2px #7e8d94; 
+  box-shadow: 0px -2px 5px #7e8d94, 0px 2px 2px #7e8d94; 
 }
 
 .navbar{
   min-height: 0px !important;
-  background-color: #5e717a !important; 
+  background-color: #f2accc !important; 
   background-image: none;
   margin:0 auto 0px auto;
   border-bottom: none;
@@ -156,11 +158,11 @@ a.nav-link  {
 /*FOOTER#fd8779*/
 
 .footer {
-  background-color:#7a5e71;
+  background-color: #f2accc;
   font-size: 110%;
   height: 100px; 
   position: relative;
-  box-shadow: 0px -1px 2px #aa90a2;      
+  box-shadow: 0px -1px 4px #7e8d94;      
 }
 
 footer.footer li{

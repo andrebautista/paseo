@@ -38,3 +38,10 @@ html, body, .main-page, .row-fluid, .background-container {
     </tr>
 	</table>
 </div>
+
+
+@media (min-width: 768px) and (max-width: 991px){
+  .container {
+    max-width: 940px !important; 
+  }
+ } 

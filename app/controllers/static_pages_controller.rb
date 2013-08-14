@@ -11,6 +11,6 @@ class StaticPagesController < ApplicationController
   def press
   end
 
-  def contact
+  def ordering
   end
 end

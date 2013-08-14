@@ -2,15 +2,15 @@
 /* UNIVERSAL */
 
 body {
-  background-color: #5e717a !important;
+  background-color: #f2accc !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
 
 }
 
-/*#fd8779*/
+/*#fd8779  #5e717a*/
 #backdrop {
-  background-color: #5e717a;
+  background-color: #768b95;
   overflow: hidden;
   /*
   background: url(image_path('paseo12.jpg')) no-repeat center center fixed;
@@ -22,7 +22,7 @@ body {
 }
 
 #main-text  {
-   margin-top: 6px !important;
+  margin-top: 6px !important;
 }
 
 .row  {
@@ -88,28 +88,26 @@ background-image: -webkit-gradient(
 }
 
 ul {
+  float: left;
+  list-style: none; 
+  li {
     float: left;
-    list-style: none;
-    
-    li {
-      float: left;
-      margin-left: 0px;
-    }
+    margin-left: 0px;
   }
+}
 
 a.nav-link  {
-      color: #ffffff !important;
-      text-shadow: none!important;
-      font-weight: none;
-      &:hover {
-         
-         background-color:#5e717a  !important;
-       }
-      &:active {
-        color: #16994b !important;
-        background-color: #5e717a !important;
-      } 
-     }
+  color: #ffffff !important;
+  text-shadow: none!important;
+  font-weight: none;
+    &:hover {
+      background-color:#5e717a  !important;
+    }
+    &:active {
+      color: #16994b !important;
+      background-color: #5e717a !important;
+    } 
+}
 
 .navbar .nav > .active > a {
   color: #1bbb5c !important;
@@ -163,7 +161,7 @@ a.nav-link  {
   font-size: 110%;
   height: 100px; 
   position: relative;
-  box-shadow: 0px -1px 4px #7e8d94;      
+  box-shadow: 0px -3px 4px #7e8d94;      
 }
 
 footer.footer li{
@@ -284,9 +282,9 @@ margin: 0px 0px 0px 0px;
 /* MENU PAGE */
 
 #cash-only  {
-    color:#768b95;
-    font-size:1.2em;
-    text-align: center;  
+  color:#768b95;
+  font-size:1.2em;
+  text-align: center;  
 }
 
 .table  {
@@ -323,8 +321,8 @@ margin: 0px 0px 0px 0px;
 }
 
 .menu-item  {
-    margin-top: 25px;
-    margin-bottom:25px;
+  margin-top: 25px;
+  margin-bottom:25px;
 }
 
 .loners{
@@ -430,6 +428,13 @@ article{
   border-top-width: 1px;
   border-color: #16994b;
   margin-top: 5px;
+}
+
+/* ORDERING */
+#ordering-info {
+  list-style-type: circle;
+  list-style-position: outside;
+  
 }
 
 

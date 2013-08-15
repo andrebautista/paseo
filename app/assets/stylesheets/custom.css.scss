@@ -1,8 +1,11 @@
 @import "twitter/bootstrap";
 /* UNIVERSAL */
+html {
+  overflow-y: scroll;
+}
 
 body {
-  background-color: #f2accc !important;
+  background-color: #ef80b3 !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
 
@@ -10,7 +13,7 @@ body {
 
 /*#fd8779  #5e717a*/
 #backdrop {
-  background-color: #768b95;
+  background-color: #4c5d67;
   overflow: hidden;
   /*
   background: url(image_path('paseo12.jpg')) no-repeat center center fixed;
@@ -105,7 +108,7 @@ a.nav-link  {
     }
     &:active {
       color: #16994b !important;
-      background-color: #5e717a !important;
+      background-color: #4c5d67 !important;
     } 
 }
 
@@ -117,7 +120,7 @@ a.nav-link  {
 .navbar-container  {
   padding-left: 0px !important;
   padding-right: 0px !important;
-  background-color:#f2accc; 
+  background-color:#ef80b3; 
   margin-left: 0px !important; 
   margin-right: 0px !important; 
   width: 100% !important;
@@ -126,7 +129,7 @@ a.nav-link  {
 
 .navbar{
   min-height: 0px !important;
-  background-color: #f2accc !important; 
+  background-color: #ef80b3 !important; 
   background-image: none;
   margin:0 auto 0px auto;
   border-bottom: none;
@@ -157,7 +160,7 @@ a.nav-link  {
 /*FOOTER#fd8779*/
 
 .footer {
-  background-color: #f2accc;
+  background-color: #ef80b3;
   font-size: 110%;
   height: 100px; 
   position: relative;
@@ -341,6 +344,9 @@ tr.side > td {
   float:left;  
 }
 
+th  {
+  color: #660000 !important;
+}
 .fdname  {
   float: left;
   font-size: 1.3em;
@@ -428,14 +434,14 @@ article{
 }
 
 /* ORDERING */
-#ordering-info {
+.ordering-info {
   list-style-type: circle;
   list-style-position: outside;
   float: none;
   margin-bottom: 20px;
 }
 
-#ordering-info > li  {
+.ordering-info > li  {
   float: none;
 }
 

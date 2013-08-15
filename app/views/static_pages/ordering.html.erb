@@ -1,5 +1,6 @@
 <% provide(:title, 'Ordering') %>
-<div id="ordering col-12 col-sm-12 col-lg-12">
+
+  <div class="col-12 col-sm-6 col-lg-6">	
 	<h4>Before Calling:</h4>
 	<ul id="ordering-info">
 		<li>Know what you want to order.</li>
@@ -13,14 +14,13 @@
 	</ul>
   <h4>When Arriving:</h4>
   <ul id="ordering-info">
-  	<li>If the line is long, skip it and come to the front, otherwise please wait.</li><br>
-  	<li>Your order won't be called until paid for. Make sure we know you are here.</li><br>
+  	<li>If the line is long, skip it and come to the front, otherwise please wait.</li>
+  	<li>Your order won't be called until paid for. Make sure we know you are here.</li>
   	<li>Remember we are cash only. Large orders have 10% gratuity added, but gratuity with every order is appreciated.</li>
-	</ul>
-
-	<br>
+  </ul>
 	<h4>Catering:</h4>
-	<p>Pricing and menu are the same, however if you want dinners to feed a
-group, we'll put all the items separately in large containers for you
-to set up as a buffet. Please give 48+ hours notice.</p>
+	<p id="catering">Paseo offers catering for large groups or events. All items on the menu are available but please give at least 2 days notice prior to the date needed.   </p>
 </div>
+<div class="col-12 col-sm-6 col-lg-6">
+  	<%=image_tag("IMG_84711.jpg", alt: "cash only photo", class:"img-responsive order-img")%>
+  </div>

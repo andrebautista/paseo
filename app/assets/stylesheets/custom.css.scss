@@ -29,7 +29,7 @@ body {
   margin-left: 0px !important;
 }
 
-.img-responsive  {
+.header-logo  {
   max-width: 75% !important;
 }
 
@@ -277,8 +277,6 @@ margin: 0px 0px 0px 0px;
   font-size: .8em;
 }
 
-
-
 /* MENU PAGE */
 
 #cash-only  {
@@ -308,7 +306,6 @@ margin: 0px 0px 0px 0px;
   margin-right: 5px;
   color: #48565d;
 }
-
 
 .description  {
   font-size: 1.1em;
@@ -354,7 +351,6 @@ tr.side > td {
 }
 
 .num  {
-  
   font-size: 1.3em;
   color: #660000;
   font-weight: bold;
@@ -428,22 +424,30 @@ article{
   border-top-width: 1px;
   border-color: #16994b;
   margin-top: 5px;
+  padding-top: 10px;
 }
 
 /* ORDERING */
 #ordering-info {
   list-style-type: circle;
   list-style-position: outside;
-  
+  float: none;
+  margin-bottom: 20px;
 }
 
+#ordering-info > li  {
+  float: none;
+}
+
+.order-img  {
+  float:right;
+}
+
+#catering  {
+  margin-bottom: 20px;
+}
 
 /* Typography */
-
-
-
-
-
 h4{
   color: #2c3539 !important;
 }

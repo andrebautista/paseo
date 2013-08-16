@@ -1,23 +1,27 @@
-<div class="row-fluid center">
-	<div class="span12">	
-		<div id="myCarousel" class="carousel slide">
+
+	<div id="carousel-example-generic" class="carousel slide">
+	  <!-- Indicators -->
 	  <ol class="carousel-indicators">
-	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	    <li data-target="#myCarousel" data-slide-to="1"></li>
-	    <li data-target="#myCarousel" data-slide-to="2"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 	  </ol>
-	  <!-- Carousel items -->
+
+	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner">
-	    <div class="active item"><%=image_tag("IMG_1A.jpg", alt: "restaurant")%></div>
-	    <div class="item"><%=image_tag("IMG_2F1.jpg", alt: "Logo")%></div>
-	    <div class="item"><%=image_tag("IMG_3.jpg", alt: "Logo")%></div>
+	     <div class="active item"><%=image_tag("IMG_1A.jpg", alt: "restaurant")%></div>
+		    <div class="item"><%=image_tag("IMG_2F1.jpg", alt: "Logo")%></div>
+		    <div class="item"><%=image_tag("IMG_3.jpg", alt: "Logo")%></div>
 	  </div>
-	  <!-- Carousel nav -->
-	  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-	  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-		</div>
-	</div>	
-</div> 	
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+	    <span class="icon-prev"></span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+	    <span class="icon-next"></span>
+	  </a>
+	</div>
 
 
 

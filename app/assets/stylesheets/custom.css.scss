@@ -19,7 +19,7 @@ body {
 /*#fd8779  #5e717a*/
 #backdrop {
   overflow: hidden;
-  background: url(image_path('background1.png')) no-repeat center center fixed;
+  background: url(image_path('background2.png')) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,10 +41,9 @@ body {
 
 .text-box{
   text-align: left;
-  background-color:#f4f6f7;
+  background-color: rgba(244,246,247,.82);
   padding: 0px 0px 10px 0px !important;
-  opacity:0.94;
-  box-shadow: 0px 1px 2px 3px #f4f6f7;
+  box-shadow: 0px 1px 2px 3px rgba(244,246,247,.82);
  
   /*
   box-shadow: 10px 0px 2px 0px #ffffff, -10px 0px 2px 0px #ffffff, 0px -0px 8px 4px #ffffff;

@@ -16,9 +16,11 @@ body {
   margin: 0px 15px !important;
 }
 
-/*#fd8779  #5e717a*/
+
 #backdrop {
   overflow: hidden;
+  background-color: #5e717a;
+/*#fd8779  */
   background: url(image_path('background2.png')) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -35,14 +37,19 @@ body {
   margin-left: 0px !important;
 }
 
-.header-logo  {
-  max-width: 75% !important;
+#header-img  {
+  max-width: 100% !important;
+}
+
+#header-logo a img {
+    display : block;
+    margin : auto;
 }
 
 .text-box{
   text-align: left;
   background-color: rgba(244,246,247,.82);
-  padding: 0px 0px 10px 0px !important;
+  padding: 5px 0px 5px 0px !important;
   box-shadow: 0px 1px 2px 3px rgba(244,246,247,.82);
  
   /*
@@ -134,13 +141,7 @@ a.nav-link  {
   background-color: #ef80b3 !important; 
   background-image: none;
   margin:0 auto 0px auto;
-  border-bottom: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-top-style: none;
-  border-bottom-width: 1px;
-  border-bottom-color: #0fe9f7;
-  border-color: #fd8779;
+  border: none !important;
   box-shadow: 0px 0px 0px !important;
   border-radius: 0px !important;
   padding-left: 0px !important;
@@ -236,7 +237,7 @@ margin: 0px 0px 0px 0px;
 
 /* HOME PAGE */
 
-#fremont  {
+#ballard  {
   text-align: center;
   line-height: 110%;
   margin-bottom:10px;
@@ -245,7 +246,7 @@ margin: 0px 0px 0px 0px;
   padding-left: 0px !important;
 }
 
-#ballard  {
+#fremont  {
   text-align: center;
   line-height: 110%;
   margin-top: 16.5px;
@@ -305,11 +306,19 @@ margin: 0px 0px 0px 0px;
   padding-top: 8px;
 }
 
+.category-w-description  {
+  padding-bottom:9px;
+}
+
 .menu-title  {
   font-size: 2.1em;
   font-weight:bold;
   margin-right: 5px;
   color: #48565d;
+}
+
+.menu-description  {
+  padding-bottom:10px;
 }
 
 .description  {
@@ -418,12 +427,30 @@ th  {
 
 /* PRESS */
 
-article{
-  padding-bottom: 10px;
-  margin-top: 20px;
+#press-left  {
+    border-right: dotted;
+    border-right-width: 1px;
+    border-left: dotted;
+    border-left-width: 1px;
+    border-bottom: dotted;
+    border-bottom-width: 1px;
+    border-color: #16994b;
+}
+
+#press-right  {
+  border-right: dotted;
+  border-right-width: 1px;
   border-bottom: dotted;
   border-bottom-width: 1px;
-  border-top-width:2px;
+  border-color: #16994b;
+}
+
+article{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: dotted;
+  border-top-width: 1px;
+  
   border-color: #16994b;
 }
 
@@ -479,4 +506,10 @@ h4{
   margin: 0px auto 20px auto;
 }
 
+@media (max-width: 904px) and (min-width: 768px)  {
+  .col-sm-12  {
+
+  }
+
+}
 

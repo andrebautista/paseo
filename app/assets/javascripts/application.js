@@ -13,5 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap/carousel
+//= require twitter/bootstrap/scrollspy
+//= require twitter/bootstrap/affix
 //= require turbolinks
 //= require_tree .

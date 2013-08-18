@@ -39,7 +39,7 @@ body {
 }
 
 #header-img  {
-  max-width: 100% !important;
+  max-width: 70% !important;
 }
 
 #header-logo a img {
@@ -508,9 +508,9 @@ h4{
 }
 
 @media (max-width: 904px) and (min-width: 768px)  {
-  .col-sm-12  {
-
-  }
+    #header-img  {
+      max-width: 100% !important;
+    }
 
 }
 

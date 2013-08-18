@@ -50,7 +50,7 @@ body {
 .text-box{
   text-align: left;
   background-color: rgba(244,246,247,.82);
-  padding: 5px 0px 5px 0px !important;
+  padding: 0px 0px 5px 0px !important;
   box-shadow: 0px 1px 2px 3px rgba(244,246,247,.82);
  
   /*
@@ -147,19 +147,9 @@ a.nav-link  {
   border-radius: 0px !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
- 
+ margin-bottom: 0px !important;
 }
 
-.navbar {
-  margin-bottom: 0px !important;
-}
-
-/*
-.navbar-static-top  {
-  margin-left: 0px !important;  //Ensures navbar fits upon resize
-  margin-right: 0px !important;
-}
-*/
 
 /*FOOTER#fd8779*/
 
@@ -290,6 +280,7 @@ margin: 0px 0px 0px 0px;
   color:#768b95;
   font-size:1.2em;
   text-align: center;  
+  padding-top: 5px;
 }
 
 .table  {

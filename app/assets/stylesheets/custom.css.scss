@@ -143,7 +143,6 @@ a.nav-link  {
 }
 
 #developer-info  {
-  
   padding-left: 0px !important;
   margin-bottom:10px;
 }
@@ -507,16 +506,20 @@ h4{
     }
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 767px)  {
   .ordering-column  {
     padding-top: 10px;
     margin-bottom: 5px;
   }
 
   .copyright  {
-    text-align: left;
+    text-align:left;
     margin-top: 1px;
     margin-bottom: 5px;
+  }
+
+  .loners-sides  {
+  margin-left: 0px;
   }
 }
 

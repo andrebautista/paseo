@@ -151,7 +151,8 @@ a.nav-link  {
 }
 
 #developer-info  {
-  padding-top: 10px; 
+  padding-top: 10px;
+  padding-left: 0px !important;
 }
 
 footer.footer li{
@@ -508,6 +509,19 @@ h4{
     #header-img  {
       max-width: 100% !important;
     }
+}
+
+@media (max-width: 768px)  {
+  .ordering-column  {
+    padding-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .copyright  {
+    text-align: left;
+    margin-left: -15px;
+    margin-top: 1px;
+  }
 }
 
 

@@ -74,22 +74,7 @@ a  {
 /* HEADER */
 
 .header  {
-
-background-color: white;
-/*background-image: linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
-background-image: -o-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
-background-image: -moz-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
-background-image: -webkit-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
-background-image: -ms-linear-gradient(top, rgb(253,134,121) 61%, rgb(253,158,146) 87%);
-
-background-image: -webkit-gradient(
-  linear,
-  left top,
-  left bottom,
-  color-stop(0.61, rgb(253,134,121)),
-  color-stop(0.87, rgb(253,158,146))
-);
-*/
+  background-color: white;
 }
 
 .header-info  {
@@ -98,6 +83,10 @@ background-image: -webkit-gradient(
   padding-left: 0px !important;
   padding-right: 0px !important;
   margin-top:5px;
+}
+
+#nav-col  {
+  padding: 0px !important;
 }
 
 ul {
@@ -133,7 +122,7 @@ a.nav-link  {
   background-color:#ef80b3; 
   margin-left: 0px !important; 
   margin-right: 0px !important; 
-  width: 100% !important;
+ 
   box-shadow: 0px -2px 5px #7e8d94, 0px 2px 2px #7e8d94; 
 }
 
@@ -156,9 +145,13 @@ a.nav-link  {
 .footer {
   background-color: #ef80b3;
   font-size: 110%;
-  height: 100px; 
+  height: 50px; 
   position: relative;
   box-shadow: 0px -3px 4px #7e8d94;      
+}
+
+#developer-info  {
+  padding-top: 10px; 
 }
 
 footer.footer li{
@@ -171,15 +164,15 @@ ul.foot-nav a  {
 
 .foot-nav  {
   float: right;
-  padding-right: 20px;
   padding-top: 10px; 
+  padding-left: 0px;
 }
 
 .copyright  {
   color: graydark;
   text-align: center;
-  margin-left: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #personal-logo  {
@@ -190,6 +183,10 @@ div.copyright a  {
   color: white;
 }
 
+#footer-margfix  {
+  padding-right: 0px;
+}
+
 /*CONNECT BAR*/
 
 #connect-center  {
@@ -198,8 +195,8 @@ padding-top: 0px;
 }
 
 .connect-section  {
-  margin-top: 20px;
-  margin-left: 10px;
+  margin-top: 5px;
+ 
 }
 
 div.connect-center a  {
@@ -381,6 +378,10 @@ th  {
   margin-left: 5px;
 }
 
+#jas-too-long {
+  margin-left: 9px;
+}
+
 .food-description  {
   float: left;
   margin-left: 6px;
@@ -420,21 +421,25 @@ th  {
 /* PRESS */
 
 #press-left  {
-    border-right: dotted;
-    border-right-width: 1px;
-    border-left: dotted;
-    border-left-width: 1px;
-    border-bottom: dotted;
-    border-bottom-width: 1px;
-    border-color: #16994b;
+    
+    
+}
+
+#press-row  {
+  border-bottom: dotted;
+  border-bottom-width: 1px;
+  border-right: dotted;
+  border-right-width: 1px;
+  border-left: dotted;
+  border-left-width: 1px;
+  border-color: #16994b;
+
 }
 
 #press-right  {
-  border-right: dotted;
-  border-right-width: 1px;
-  border-bottom: dotted;
-  border-bottom-width: 1px;
-  border-color: #16994b;
+
+ 
+  
 }
 
 article{
@@ -461,7 +466,8 @@ article{
 /* ORDERING */
 
 .ordering-column  {
-  margin-top: 29px;
+  padding-top: 29px;
+  margin-bottom: 50px;
 }
 
 .ordering-info {
@@ -498,10 +504,14 @@ h4{
   margin: 0px auto 20px auto;
 }
 
-@media (max-width: 904px) and (min-width: 768px)  {
+@media (max-width: 990px) and (min-width: 768px)  {
     #header-img  {
       max-width: 100% !important;
     }
-
 }
+
+
+
+
+
 

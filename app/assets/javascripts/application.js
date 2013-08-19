@@ -15,5 +15,6 @@
 //= require twitter/bootstrap/carousel
 //= require twitter/bootstrap/scrollspy
 //= require twitter/bootstrap/affix
+//= require respond.min
 //= require turbolinks
 //= require_tree .

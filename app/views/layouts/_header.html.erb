@@ -10,7 +10,7 @@
       <span id="location-name">Fremont</span><br>
       <span id="address">4225 Fremont Ave N<br>
       Seattle, WA 98103</span><br>
-      <span id="phone">(206) 545-7440</span><br>
+      <span id="phone"><a href="tel://206 545 7440">(206) 545-7440</a></span><br>
       <span id="hours">Tu-Fri: 11-9 &amp; Sat: 11-8</span> 
     </div> 
     <div class ="col-xs-6 col-sm-4 col-md-2 col-lg-2" id="ballard">
@@ -21,7 +21,7 @@
     </div>
  </div> 
  <div class="navbar-container">
-    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 center" id="nav-col">    
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8 center" id="nav-col">    
       <div class = "navbar">
         <ul class = "nav pull-right">
           <li class="<%= 'active' if current_page?(root_path)%>"><%= link_to "Home", root_path, class:"nav-link"%></li>

@@ -3,4 +3,4 @@
 Currently designed with Twitter Bootstrap V3 using the responsive
 classes for mobile, tablet, and desktop.
 
-Running Rails v4 however the website is not dynamic.
+Running Rails v4 however the website is entirely static
